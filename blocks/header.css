@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  max-width: 255px;
+  margin-top: 10px;
+  padding-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-family: "Inter-black", sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 97px;
+  text-align: center;
+  line-height: 1;
+}
+
+.header__subtitle {
+  max-width: 720px;
+  margin-bottom: 64px;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+}
+
+.header__content-image {
+  max-width: 984px;
+  margin: auto;
+}
+
+.header__image {
+  width: 984px;
+}
