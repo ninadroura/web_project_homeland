@@ -13,3 +13,10 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .page {
+    max-width: 320px;
+    gap: 50px;
+    margin: 0 auto 65px;
+  }
+}
